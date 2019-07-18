@@ -1,3 +1,3 @@
 # ExampleReactApp
 
-Hello WorldHello World Jaime
+Hello World Jaime
