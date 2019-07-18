@@ -1,6 +1,14 @@
-// Array.map Method
+// Objet Destructuring 
+const address= {
+    street: '',
+    city: '',
+    country: ''
+}
 
-const colors = ['red','green','blue'];
-const items= colors.map(color => `<li>${color}</li>`); // forma de poner lo mismo que '<li>'+ color +'</li>'
-console.log(items);
+const street = address.street; 
+const city = address.city; 
+const country = address.country; 
 
+//const {street, city, country}= address; // En esta línea tenemos el mismo resultado que las 3 anteriores
+
+const { street: st } = address; // Forma que se usará más amenudo. 
