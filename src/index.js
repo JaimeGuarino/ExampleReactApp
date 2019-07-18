@@ -1,3 +1,4 @@
+/*
 import { tsPropertySignature } from "@babel/types";
 
 function sayHello(){
@@ -9,7 +10,15 @@ function sayHello(){
 
 sayHello();
 
-const persona = {name: "Juan", edad: 20, sexo:"", altura:1240};
+const person ={
+    name:'Mosh',
+    walk(){},
+    talk()
+};
 
-const {name, edad, ...otros} = persona
-const [campo1, campo2] = [100, "", true]
+person.talk();
+person.name = '';
+
+*/
+
+
