@@ -90,19 +90,41 @@ const{Street, City, Country} = address;
 //10- Spread Operator
 
 
-//combinando arrays
+        //combinando arrays
 const first = [1,2,3];      
 const second = [4,5,6];
 
 const combined = first.concat(second);
 const combined2 = [...first, 'a', ...second,'b'];
 
-//combinando objetos
+        //combinando objetos
 
 const first2 = {name: "Mosh"};     
 const second2 = {job: "Instructor"};
 
 const combinado = {...first2, ...second2, location: "Australia"};
 console.log(combinado);
+
+
+//11- Classes
+
+class Person {
+
+    constructor(name) {
+        this.name = name;
+    }
+
+    walk   (){
+        console.log(this.name);
+    }
+
+}
+
+
+const person = new Person('Joaquin')
+
+person.walk();
+
+
 
 
