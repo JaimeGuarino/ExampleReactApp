@@ -71,4 +71,22 @@ console.log(items);
 console.log(items2);
 
 
+//9. Object Destructuring
+
+const address = {
+    street: '',
+    city: '',
+    country: ''
+
+};
+
+const street = adress.street;
+const city = address.city;
+const country = address.country;
+
+
+const{ street, city, country} = address;
+
+
+
 
