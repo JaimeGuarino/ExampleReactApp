@@ -1,3 +1,4 @@
+import {Teacher} from './teacher.js';
 /*
 import { tsPropertySignature } from "@babel/types";
 
@@ -108,43 +109,21 @@ console.log(combinado);
 
 //11- Classes
 
-class Person {
-
-    constructor(name) {
-        this.name = name;
-    }
-
-    walk   (){
-        console.log(this.name);
-    }
-
-}
 
 
-const person = new Person('Joaquin')
 
-person.walk();
+//const person = new Person('Joaquin')
+
+//person.walk();
 
 
 
 //12- Inheritance
-
-class Teacher extends Person{
-
-
-    constructor(name,degree){
-        super(name);
-        this.degree =degree;
-    }
-
-    teach2(){
-        console.log(this.degree);
-    }
-
-}
+//13. Modules
 
 const teach = new Teacher("Joaquin", "Matematicas");
 
+console.log(teach.name);
 teach.teach2();
 
 
