@@ -80,13 +80,29 @@ const address = {
 
 };
 
-const street = adress.street;
+const street = address.street;
 const city = address.city;
 const country = address.country;
 
 
-const{ street, city, country} = address;
+const{Street, City, Country} = address;
+
+//10- Spread Operator
 
 
+//combinando arrays
+const first = [1,2,3];      
+const second = [4,5,6];
+
+const combined = first.concat(second);
+const combined2 = [...first, 'a', ...second,'b'];
+
+//combinando objetos
+
+const first2 = {name: "Mosh"};     
+const second2 = {job: "Instructor"};
+
+const combinado = {...first2, ...second2, location: "Australia"};
+console.log(combinado);
 
 
