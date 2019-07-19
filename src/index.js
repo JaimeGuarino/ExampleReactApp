@@ -43,7 +43,7 @@ const square = function(number){
     return number * number;
 }
 
-*/
+
 
 const square = number => number * number;
 console.log(square(5))
@@ -55,11 +55,20 @@ const jobs = [
     {id:2, isActive: true},
     {id:3, isActive: false},
 ]
-
-const activeJobs =
-
+*/
 
 
+//8.- Array.map Method
+
+const colors = ['red', 'green', 'blue'];
+const items = colors.map(function(color) {
+    return '<li>' + color + '</li>';
+});
+
+const items2= colors.map(color => '<li>' + color + '</li>');
+
+console.log(items);
+console.log(items2);
 
 
 
