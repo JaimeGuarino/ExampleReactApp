@@ -127,4 +127,50 @@ person.walk();
 
 
 
+//12- Inheritance
+
+class Teacher extends Person{
+
+
+    constructor(name,degree){
+        super(name);
+        this.degree =degree;
+    }
+
+    teach2(){
+        console.log(this.degree);
+    }
+
+}
+
+const teach = new Teacher("Joaquin", "Matematicas");
+
+teach.teach2();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
