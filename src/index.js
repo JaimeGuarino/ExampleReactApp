@@ -128,6 +128,13 @@ teach.teach2();
 
 
 
+//14- Named and Default Export
+
+//hay que diferenciar Default and Name 
+//export es que sea publica, con Default no hace falta poner los corchetes
+
+
+
 
 
 

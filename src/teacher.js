@@ -1,5 +1,8 @@
 import{Person} from './person.js';
 
+
+export function promote(){}; 
+
 export class Teacher extends Person{
 
 
